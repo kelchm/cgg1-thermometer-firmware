@@ -4,4 +4,4 @@ The goal of this project is reverse engineer and ultimately develop a custom fir
 Thanks to [atc1441](https://github.com/atc1441), as his work on the  [ATC_MiThermometer](https://github.com/atc1441/ATC_MiThermometer) project inspired me to begin this effort.
 
 ## Progress
-- See the [wiki](Home) for documentation on the CGG1
+- See the [wiki](https://github.com/kelchm/cgg1-thermometer-firmware/wiki) for documentation on the CGG1
