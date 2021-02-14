@@ -1,0 +1,22 @@
+name: Publish Wiki
+
+on:
+  push:
+    paths:
+      - 'wiki/**'
+    branches:
+      - publish-documentation
+      # - master
+
+jobs:
+  deploy-wiki:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    - name: Push Wiki Changes
+      uses: Andrew-Chen-Wang/github-wiki-action@v2
+      env:
+        WIKI_DIR: wiki/
+        GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        GH_MAIL: $GITHUB_ACTOR@users.noreply.github.com
+        GH_NAME: $GITHUB_ACTOR
