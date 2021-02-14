@@ -4,9 +4,9 @@ on:
   push:
     paths:
       - 'wiki/**'
+      - '.github/workflows/wiki.yml'
     branches:
-      - publish-documentation
-      # - master
+      - master
 
 jobs:
   deploy-wiki:
