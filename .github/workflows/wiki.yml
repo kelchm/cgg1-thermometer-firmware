@@ -18,6 +18,6 @@ jobs:
       env:
         WIKI_DIR: wiki/
         GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        GH_MAIL: $GITHUB_ACTOR@users.noreply.github.com
-        GH_NAME: $GITHUB_ACTOR
-        EXCLUDED_FILES: "wiki/README.md"
+        GH_MAIL: ${{ github.actor }}@users.noreply.github.com
+        GH_NAME: ${{ github.actor }}
+        EXCLUDED_FILES: "README.md"
