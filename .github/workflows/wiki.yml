@@ -1,0 +1,23 @@
+name: Publish Wiki
+
+on:
+  push:
+    paths:
+      - 'wiki/**'
+      - '.github/workflows/wiki.yml'
+    branches:
+      - master
+
+jobs:
+  deploy-wiki:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    - name: Push Wiki Changes
+      uses: Andrew-Chen-Wang/github-wiki-action@v2
+      env:
+        WIKI_DIR: wiki/
+        GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        GH_MAIL: ${{ github.actor }}@users.noreply.github.com
+        GH_NAME: ${{ github.actor }}
+        EXCLUDED_FILES: "README.md"
