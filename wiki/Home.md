@@ -1,23 +1,23 @@
 # Device Details
 
-- SOC: NRF52832-QFAA
+- SOC: nRF52832-QFAA
 - Sensor: Sensirion SHTC3 (to be confirmed)
 
 ## Photos
 
 ### PCB
 
-[[images/cgg1-pcb.jpg]]
+![CGG1 PCB](images/cgg1-pcb.jpg)
 
 ### SoC Macro
 
-[[images/cgg1-pcb-nrf52-macro.jpg]]
+![CGG1 nRF52 Macro](images/cgg1-pcb-nrf52-macro.jpg)
 
 ## Disassembly
 
 While not the easiest device to open up, it is possible to disassemble the CGG1 with minimal to no damage.
 
-[[images/cgg1-dissasembled.jpg]]
+![CGG1 Dissasembled](images/cgg1-dissasembled.jpg)
 
 1. Gently heat the front lens of the device to soften the blue holding it to the body.
 2. After the glue has been softened, use a razor blade (or possibly a guitar pick) to 'slice' the glue the holding the lens to the rest of the body. **Note**: be very careful to not to damage the E Ink screen.
