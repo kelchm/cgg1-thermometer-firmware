@@ -7,17 +7,17 @@
 
 ### PCB
 
-[[/images/cgg1-pcb.jpg]]
+[[images/cgg1-pcb.jpg]]
 
 ### SoC Macro
 
-[[/images/cgg1-pcb-nrf52-macro.jpg]]
+[[images/cgg1-pcb-nrf52-macro.jpg]]
 
 ## Disassembly
 
 While not the easiest device to open up, it is possible to disassemble the CGG1 with minimal to no damage.
 
-[[/images/cgg1-dissasembled.jpg]]
+[[images/cgg1-dissasembled.jpg]]
 
 1. Gently heat the front lens of the device to soften the blue holding it to the body.
 2. After the glue has been softened, use a razor blade (or possibly a guitar pick) to 'slice' the glue the holding the lens to the rest of the body. **Note**: be very careful to not to damage the E Ink screen.
